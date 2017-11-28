@@ -1,7 +1,7 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png) <br> 
 
-# wdi-remote-gizmo
-Class repo for WDIR-Gizmo - June 26 - Sept. 27, 2017
+# wdi-10-chi
+Class repo for WDIR-Gizmo - December 4, 2017 - March 9, 2017
 
 ## Licensing 
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.<br> 
