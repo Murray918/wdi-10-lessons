@@ -4,39 +4,26 @@
 
 ---
 
-Title: Morning Lesson<br>
+Command Line Workthrough<br>
 Duration: 1.5 hrs<br>
-Creator: Thom Page<br>
+Adapted by Reuben Ayres from: 
+"w01d01 Morning Lesson" created by: Thom Page<br>
+and "Terminal Basics + Navigating the Filesystem," created by Gary Mathe <br>
+
 Topics: Intro, Terminal, "Hello World"<br>
 
----
-
-<!-- ## Intro
-
-Hello, you are reading the intro.
-
-Day to day:
-
-- Lesson headers
-	- Headers will be posted for all lessons and labs with links to markdowns and the Zoom channel. 
-- Markdown
-	- Markdown contains reference material related to the lesson 
-- Asking questions
-	- Ask away! Either in Slack or out loud 
-- Thumbsups
-	- We use the thumbsup emoji (or in this case the Gizmo / Gremlin emojis) to gauge completeness of exercises. Click on the thumb or Gizmo or Gremlin when you are done with an exercise. -->
-	
-
-
-<br>
 <hr>
+<br>
+
 
 ## Software
 
+- Google Chrome
 - Sublime Text?
 	- [Sublime Text](https://www.sublimetext.com/)
-- Or Atom
+- Or Atom, if you must
 	- [Download Atom](https://atom.io/)
+
 <!-- - Node installed?
 	- [Download Node](https://nodejs.org/en/download/)
 	- Click on "Macintosh Installer"
@@ -53,6 +40,7 @@ _After this lesson, students will be able to:_
 * Create files and folders on the command line
 * Navigate using relative pathing on the command line 
 * Print a "Hello, World" to the console
+* Build and open and use a file structure in Sublime Text from the command line
 
 <br>
 <hr>
@@ -65,11 +53,8 @@ _After this lesson, students will be able to:_
 - "*Te*rminal"
 - `Enter`
 
-![](https://i.imgur.com/CvggrYa.png)
-
 - Keep it locked in your dock. Right click on the icon, highlight options, check "Keep in Dock".
 
-![](https://i.imgur.com/ZrPuVNq.png)
 
 
 &#x1F535; **Terminal Preferences**
@@ -80,41 +65,82 @@ You can change the color of your Terminal and the font size. It is recommended t
 
 <br>
 <hr>
-12:20
+
+
+## What is a GUI (pronounced gooey)? Intro (5 mins)
+
+* DOS, Unix, Linux, Commodore 64.
+
+**What is Unix?  Do you guys know about these softwares?**
+
+* Windows, MacOS, iOS, Android OS, etc
+* Computers didn't use to have a **G**raphical **U**ser **I**nterface (GUI). 
+* Everyone used a **C**ommand **L**ine **I**nterface (CLI).
+
+![Dos](https://upload.wikimedia.org/wikipedia/commons/9/94/FreeDOS_Beta_9_pre-release5_%28command_line_interface%29_on_Bochs_sshot20040912.png)
+*Image from Wikimedia*
+
+* Command line still exists, even though most computer users don't see it
+* We use command line constantly...
+	* to manage our files and tell our computer how to run our programs. 
+	* It will greatly speed up our development process 
+* it help us take ownership of our computer at a deeper level. 
+* pitfalls—pretty serious damage if you don't know what you're doing
 
 ## Command Line Interface
 
-Terminal provides a Command Line Interface (CLI) to the operating system. With it you can give your computer direct, text-based instructions. It is the most powerful piece of software on your computer! Think of it as the central hub of your development process. For now, we will use it to navigate the files and folders in our computer.
+* Terminal gives us access to Command Line Interface (CLI) to the operating system. 
+* You can give your computer direct, text-based instructions. 
+* most powerful piece of software on your computer!
+* Think of it as the central hub of your development process. 
+* For now, we will use it to navigate the files and folders/directories in our computer.
 
 When terminal launches, it will start in your computer's home directory (whatever you named your computer). Your home directory is denoted by the tilde `~`.
 
-In Terminal-land, **Directories** are the same as **Folders** (we just call them **Directories**).
-
-![](https://i.imgur.com/tTyOkwV.png)
-
-
+When you're dragging files around in your Finder, you think of folders as folders. 
 In **Finder**, we can also navigate our computer's folders and files: folders contain files and more folders:
 
-![](https://i.imgur.com/CR7PmAO.png)
+	`(quickly show this)`
+
+This is appropriate for organizing photos or documents on your computer.
+
+But when we're working with a (UNIX) terminal, you would call them **Directories**—they are  equivalent to **Folders** in a GUI.  And we're going to close our Finder/Explorer windows now, and almost completely stop using them for the rest of the course. 
+<!-- 
+![](https://i.imgur.com/tTyOkwV.png)
+ -->
+<br>
+
+#### What is a *shell*?
+
+A shell is simply a type of command line program, which contains a very simple, text-based user interface enabling us to access all of an operating system's services. It is, very simply, a program that accepts text as input and translates that text into the appropriate functions that you want your computer to run.
+
+*Taken from Just for fun: [Type like a hacker](http://hackertyper.com/)*
 
 <br>
 
-## Bash Commands
+## [Bash](https://www.gnu.org/software/bash/) 
 
-The Command Line understands commands written in the `bash scripting language`. The commands are abbreviations of English words, or acronyms.
+Bash is a type of Shell.  It understands commands written in the `bash scripting language`. The commands are abbreviations of English words, or acronyms.
 
 - `pwd` - will print the current working directory. It shows you a `path`. This `path` shows you where are curently located in the filesystem. It's like sending up a flare or homing beacon, where you can see how far you have 'traveled' from the root directory.
 
-![](https://i.imgur.com/4aaT88x.png)
 
 - `ls` - Lists the contents of the current directory. You can see
 	* the  immediate _child_ directories (the directories inside this directory)
 	* the files and directories that are not hidden.
 
-![](https://i.imgur.com/H2RTUny.png)
-
-- Bash commands can take `flags` denoted by a dash `-`
+### Flags
+- Commands can take **`flags`** denoted by a dash `-`
 	- `ls -a` - list content including hidden files and directories. Hidden files and directories begin with a period, for example, `.git`.
+	- `ls -l` - list with details
+
+#### Combining flags
+	- `ls -la`
+	- `ls -lha`
+
+
+- There are also **double-dash** flags/options on most commands, for example many commands have the `--help` option:
+	- `nano --help`
 
 
 Directories (folders) can have directories within them, and there can be directories inside _those_ directories, ad infinitum. This creates a tree structure where directories can have many children with many different branches.
@@ -125,7 +151,7 @@ Directories (folders) can have directories within them, and there can be directo
 <hr>
 12:30
 
-## CHANGING DIRECTORIES
+## Changing Directories
 
 We can navigate to other directories _relative_ to the current working directory.
 
@@ -136,13 +162,14 @@ We can navigate to other directories _relative_ to the current working directory
 	- `..` is shorthand for parent
 - `cd` will take you back home
 
-**Shortcuts**
+**More Terminal Shortcuts**
 
-- letter[TAB]
-	- autocompletes (case-sensitive)
+- Tab completion
+	- autocompletes (case-sensitive) 
 
 - up / down arrow
 	- cycle command history
+
 
 <br>
 
@@ -157,6 +184,8 @@ We can navigate to other directories _relative_ to the current working directory
 
 <br>
 <hr>
+
+
 
 12:35
 
@@ -183,11 +212,34 @@ Example:
 
 <br>
 
+## Success tip: staying organized throughout the class
+
+* Be obsessive, starting today
+* Make one folder where everything from the class will live
+
+`mkdir ga_wdi_fluff_hounds` (or `wdi` or `ga` or `fluff_hounds` etc)<br>
+`cd ga_wdi_fluff_hounds`
+
+* In that folder, make a new folder for each day, and go into it.
+
+`mkdir 12_04_2017`<br>
+`cd 12_04_2017`
+
+* In that folder make a new folder for each lesson or activity and give that folder a nice descriptive name
+
+`mkdir terminal_practice`<br>
+`cd terminal_practice`
+
+* At the end of class, before you leave go back and rename the folder for that day something more descriptive, perhaps include key topics from the day:
+
+`mv 12_17_2017 12_17_2017_jQuery_and_DOM_Manipulation`
+
+<br>
+
 &#x1F535; **Code Along (4 min)**
 
-* Navigate home `cd`
-* Go to Documents
-* Make directory `exercise`
+* Navigate to today's folder, and to the terminal_practice folder you just created
+* Make a directory `exercise`
 * Go into the directory with autocomplete
 * Make two directories `example1` and `example3` and list them
 * Go into `example1` with autocomplete
@@ -196,21 +248,22 @@ Example:
 * List the file
 * Navigate back to exercise
 
-<br>
+
+---
 
 &#x1F535; **Activity (10 min)**
 
 **Construct a Labyrinth**
 
-Using what you know about navigating directories and creating files and folders, construct a 'labyrinth' on your desktop.
+Using what you know about navigating directories and creating files and folders, construct a 'labyrinth' in today's folder.
 
 **Precision** is important. There are a few layers to this exercise. Be patient.
 
 - Make sure you are in the correct directory when you go to create another directory or file.
 - Make sure you use `touch` to make files, and `mkdir` to make directories. **files** and **directories** are two different things.
 
-* Navigate to Desktop
-* `mkdir Labyrinth`, `cd Labyrinth`
+* Navigate to today's folder
+* `mkdir labyrinth`, <br>`cd labyrinth`
 * Make a directory structure like this:
 
 ![labyrinth](https://i.imgur.com/V1zaeBT.png)
@@ -224,34 +277,8 @@ If you make a mistake, don't worry, just keep adding the right stuff to the righ
 
 <br>
 <hr>
-12:50
 
-## Interlude
-
-In the long term, reduce your reliance on the mouse.
-More Bash keyboard shortcuts:
-
-`⌘ K` Clear the Terminal window
-
-`option arrow` Move cursor by word
-
-`Ctrl A` Go to beginning of line
-
-`Ctrl E` Go to end of line
-
-
-`Ctrl K` Kill line to end
-
-`Ctrl U` Kill line to beginning
-
-`Ctrl Y` Yank clipboard to line
-
-
-`cd -` toggle previous directory
-
-<br>
-
-## Navigation: RELATIVE PATHING
+## Navigation: RELATIVE PATHS
 
 Chain more directories to the current path with the `/` separator
 
@@ -302,10 +329,11 @@ For each of these, write your command on one line, using full paths:
 * From the `escher room`, navigate to the `throne_room`
 * From the `throne_room`, navigate to the `ball_room`
 
+
+
 <br>
 <hr>
-
-## (Extra) Navigation: ABSOLUTE PATHING
+## (Extra) Navigation: ABSOLUTE PATH
 
 Move anywhere relative to the home directory: 
 
@@ -319,17 +347,56 @@ Navigates to the escher room _no matter where_ you are currently located in your
 
 > NOTE: You can combine absolute and relative pathing when copying or moving files from one location to another with `cp` and `mv`.
 
+#### Jump back (fun trick)
+
+- `cd -` if you cd to a (far-away) absolute path you can go to the previous directory this way
+
+
+
+
+
 <br>
 
 &#x1F535; **Activity (3 min)**
 
-**Navigate the Labyrinth**
+BUT FIRST:
+
+Are you tired yet of all the tedious typing and going left left left left left to go back and change one letter? well here's some....
+
+#### Handy Terminal Keyboard Shortcuts
+
+In the long term, reduce your reliance on the mouse.
+More Bash keyboard shortcuts:
+
+`⌘ K` Clear the Terminal window
+
+`option arrow` Move cursor by word
+
+`Ctrl A` Go to beginning of line
+
+`Ctrl E` Go to end of line
+
+
+`Ctrl K` Kill line to end
+
+`Ctrl U` Kill line to beginning
+
+`Ctrl Y` Yank clipboard to line
+
+
+`cd -` toggle previous directory
+
+
+...and now back to our
+
+&#x1F535; **Activity: Navigate the Labyrinth (some more)**
 
 Using absolute pathing:
 
 * Navigate to the throne_room
 * Navigate to the ballroom
 * Navigate to the parlor
+
 
 
 1:15
@@ -340,63 +407,52 @@ Using absolute pathing:
 
 We are going to:
 
-* make a file
-* open it in our text editor
+* build a file structure
+* open the file structure in Sublime
 * write some code
-* run the code in Terminal
+* run parts of the code
 
 &#x1F535; **Code Along (5 min)**
 
-* In Terminal, navigate to Documents.
+* In Terminal, navigate to your folder for today.
 
-* Make a directory `w1d1_student_examples`
+* Make a directory `file_structure_hello_world` and `cd` into it.
 
-* Go inside the directory
+* Create a folder structure:<br>
+	`mkdir hello_app`<br>
+	`touch index.html`<br>
+	`mkdir css`<br>
+	`touch css/style.css`<br>
+	`mkdir js`<br>
+	`touch js/app.js`<br>
 
-* Make a file `first_code.js`
+* This will be our standard front-end file structure for the next 4-ish weeks (or 6 if you include the break)
 
-* Open up Atom, either by typing `atom` or doing it manually through Spotlight or the Dock.
+* Let's print a message to the console. It is somewhat of a tradition to write a 'Hello World' program as a first step in programming.
 
-* Go to `Atom -> Install Shell Commands`
+**PAUSE HERE TO SET UP SUBLIME ALIAS <br>
+and for DISCUSSION OF .BASH_PROFILE AND SOURCE**
 
-![](https://i.imgur.com/AqFki3f.png)
+* Open the file structure in Sublime Text using your fancy new shortcut (PC Open Folder)
 
-* Close Atom
-
-* From inside the `w1d1_student_examples` directory, open Atom from the command line with `atom .` (atom space dot)
-
-**NOTE** This might not work on some systems. If not we will get it sorted out in time. For now, Just open the directory from `File -> Open`, and open the `w1d1_student_examples` directory.
-
-* When Atom opens, you should see the `w1d1_student_examples` directory and all the files inside the directory (in this case, just the `first_code.js` file.
-
-<br>
-<hr>
-
-## Hello World
-
-* Create a folder structure
-	`mkdir hello_app`
-	`touch index.html`
-	`mkdir js`
-	`touch js/app.js`
-
-* Let's send a message to the console. It is somewhat of a tradition to write a 'Hello World' message as the first thing you do in programming.
-
+Add to your app.js:<br>
 `console.log('Hello World!');`
 
-Run the code in Terminal
+**PAUSE HERE TO SET UP CHROME ALIAS**
 
-> `node filename.js`
-
-`node first_code.js`
+Open this folder structure in chrome and click on index.html.  Open the developer tools.  You should see:
 
 > => Hello World!
 
-**Congrats!** You've written your first "Hello World" of wdi-remote!
-
-We can send whatever we want to the console.
-
-`console.log('The rain in Spain falls mainly on the plain');`
+**Congrats!** You've written your first "Hello World" of **wdi-10-chi-fluff-hounds**!
 
 <br>
 <hr>
+
+this lesson does not include 
+
+rmdir
+
+rm 
+
+mv (other than where i mentioned it)
