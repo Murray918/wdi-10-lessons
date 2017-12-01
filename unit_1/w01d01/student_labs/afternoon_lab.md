@@ -1,12 +1,12 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDI-GIZMO
+# chi-wdi-10
 
 ---
 
 Title: Afternoon Lab<br>
 Duration: 1 hr 15 mins approx<br>
-Creator: Thom Page <br>
+Adapted by Reuben Ayres from lab created by Thom Page <br>
 Topics: Terminal, Errors, While loops, For Loops<br>
 
 ---
@@ -37,21 +37,19 @@ Work through the following prompts in turn:
 
 * Open Terminal
 
-* Navigate to your Documents directory `/User/username/Documents`
+* Navigate to your Class directory
 
-* Make a **directory** inside Documents called `w1d1_lab`
+* Make a **directory** inside today's folder called `lab_loops_practice`
 
-* Go into the `w1d1_lab` directory
+* Go into the `lab_loops_practice` directory
 
-* Inside `w1d1_lab`, make a file called `first_lab.js`
+* Inside `lab_loops_practice`, build our standard file structure.
 
-* Open the `w1d1_lab` directory in your text editor
+* Open the `lab_loops_practice` directory in your text editor
 
-Write the answers to the rest of this lab in the `first_lab.js` file.
+Write the answers to the rest of this lab in the `app.js` file.
 
-Make sure you are in the same directory as the file, otherwise it won't run.
-
-Press the **up arrow** to retrieve the `node first_lab.js` command. That way, you don't have to type it each time to run the file.
+To test a piece of code for an exercise, comment out everything in `app.js` besides the code you're working with and reload the index.html page in chrome.
 
 <br>
 <hr>
@@ -60,11 +58,11 @@ Press the **up arrow** to retrieve the `node first_lab.js` command. That way, yo
 
 Cut and paste the following code into your text editor (the "Cheers" song lyrics). The code is broken -- there are **three errors**. You might already see the errors, but --
 
-Run the code and read the error message in the terminal. Using information from the error message (line numbers, etc.), debug the code and make it work.
+Run the code and read the error message in the console. Using information from the error message (line numbers, etc.), debug the code and make it work.
 
 At the same time, write a comment below the code that specifies what _type_ of error it was. Example, if you get this:
 
-![](https://i.imgur.com/KRHtmPM.png)
+![](https://i.imgur.com/hBSBp09.png)
 
 Write
 
