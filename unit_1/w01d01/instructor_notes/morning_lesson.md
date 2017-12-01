@@ -1,6 +1,6 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDI-GIZMO
+# chi-wdi-10 Fluff Hounds
 
 ---
 
@@ -11,7 +11,7 @@ Topics: Intro, Terminal, "Hello World"<br>
 
 ---
 
-## Intro
+<!-- ## Intro
 
 Hello, you are reading the intro.
 
@@ -21,32 +21,26 @@ Day to day:
 	- Headers will be posted for all lessons and labs with links to markdowns and the Zoom channel. 
 - Markdown
 	- Markdown contains reference material related to the lesson 
-	- Slides from the markdown will be posted into Slack during the lesson ![](https://i.imgur.com/xxs7w7f.png)
-- Sharing screen
-	- The instructor will screenshare for demonstration purposes. Double-click out of fullscreen. 
-- Screen real-estate: markdown, zoom, text editor, terminal, slack
-	- Command-tab to cycle applications
-- Muting
-	- Be muted unless speaking 
 - Asking questions
 	- Ask away! Either in Slack or out loud 
-- Visibility of instructor code 
-	- Speak up if the instructor's code is not visible (eg. too small).
 - Thumbsups
-	- We use the thumbsup emoji (or in this case the Gizmo / Gremlin emojis) to gauge completeness of exercises. Click on the thumb or Gizmo or Gremlin when you are done with an exercise.
+	- We use the thumbsup emoji (or in this case the Gizmo / Gremlin emojis) to gauge completeness of exercises. Click on the thumb or Gizmo or Gremlin when you are done with an exercise. -->
 	
+
 
 <br>
 <hr>
 
 ## Software
 
-- Atom installed?
+- Sublime Text?
+	- [Sublime Text](https://www.sublimetext.com/)
+- Or Atom
 	- [Download Atom](https://atom.io/)
-- Node installed?
+<!-- - Node installed?
 	- [Download Node](https://nodejs.org/en/download/)
 	- Click on "Macintosh Installer"
-	- Install the package
+	- Install the package -->
 
 <br>
 <hr>
@@ -58,7 +52,7 @@ _After this lesson, students will be able to:_
 * Use Terminal to navigate files and folders
 * Create files and folders on the command line
 * Navigate using relative pathing on the command line 
-* Print a "Hello World" to the console
+* Print a "Hello, World" to the console
 
 <br>
 <hr>
@@ -380,7 +374,11 @@ We are going to:
 
 ## Hello World
 
-* Check version of Node `node -v`. Any version is fine.
+* Create a folder structure
+	`mkdir hello_app`
+	`touch index.html`
+	`mkdir js`
+	`touch js/app.js`
 
 * Let's send a message to the console. It is somewhat of a tradition to write a 'Hello World' message as the first thing you do in programming.
 
