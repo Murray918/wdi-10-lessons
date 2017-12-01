@@ -1,13 +1,14 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDIR-Gizmo
+# chi-wdi-10
 
 ---
 
-Title: w01d01 Homework<br>
-Duration: 3 - 4 hrs approx.<br>
+Title: Terminal & Loop Homework<br>
+Duration: 3 hrs approx.<br>
 Creator: Thom Page <br>
-Modified by: Kristyn Bryan <br>
+Modified by: Kristyn Bryan<br> 
+Adapted by: Reuben Ayres<br>
 Topics: Terminal, boolean expressions, reading code, while loops, for loops<br>
 
 ---
@@ -16,11 +17,11 @@ Topics: Terminal, boolean expressions, reading code, while loops, for loops<br>
 
 ## Setup
 
-1) Make a directory on your computer called `homework` (put it somewhere easily accessible).
+1) Make a directory in today's folder called `homework`.
 
-2) Inside the `homework` directory, make a file called `w1d1_homework.js`.
+2) Build our folder structure like we did in class.
 
-3) Write your answers inside `w1d1_homework.js`.
+3) Write your answers inside `app.js`.
 
 4) For any answers that require a written response, write the response as commented-out code.
 
@@ -29,9 +30,8 @@ Topics: Terminal, boolean expressions, reading code, while loops, for loops<br>
 // concatentation is . . .
 ```
 
-5) For answers that require code, make sure the code will run in your Terminal when you type `node w1d1_homework.js` from inside the `homework` directory.
+6) For coded responses, as you work on them comment out everything else but the problem you're working on so that when you load `index.html` in your browser, only that code runs.
 
-Note: Press the **up arrow** to retrieve the `node w1d1_homework.js` command after you have used it the first time.
 
 Good luck!
 
@@ -52,7 +52,7 @@ Good luck!
 ## Boolean expressions
 **... and variable assignment**
 
-- Using the provided variable definitions, replace the blanks with a mathematical or boolean operator that evaluates the expression to `true`.
+- Using the provided variable definitions, replace the blanks with mathematical or boolean operators that make the expression evaluate to `true`.
 - Test your answers by using `console.log` in front of each expression in your answer file.
 
 ```
@@ -63,13 +63,13 @@ Good luck!
   const e = 'Kevin';
 ```
 
--  a _ b;
--  c _ d;
--  'Name' ___ 'Name';
--  a _ b ___ c;
--  a _ a ___ d;
--  e ___ 'Kevin';
--  48 ___ '48';
+-  a \_\_ b;
+-  c \_\_ d;
+-  'Name' \_\_ 'Name';
+-  a \_\_ b \_\_ c;
+-  a \_\_ a \_\_ d;
+-  e \_\_ 'Kevin';
+-  48 \_\_ '48';
 
 <br>
 <hr>
@@ -157,7 +157,7 @@ A for loop performs the same operation as a while loop. But what are the key dif
 
 Write a for loop that will console.log the numbers 0 to 999.
 
-## For loop control panel
+## For loop control statement
 
 Here is an example for loop that prints a message 100 times:
 
@@ -167,13 +167,13 @@ for (let i=0; i < 100; i++) {
 }
 ```
 
-What are the three components of the **control panel**? Each component is separated by a semicolon `;`.
+What are the three components of the **control statement**? Each component is separated by a semicolon `;`.
 
 Write your answers as comments in the file.
 
-* The first part of the control panel is:
-* The second part of the control panel is:
-* The third part of the control panel is:
+* The first part of the control statement is:
+* The second part of the control statement is:
+* The third part of the control statement is:
 
 ## For loop in reverse
 
@@ -201,24 +201,6 @@ The value of i is: 9 of 10
 The value of i is: 10 of 10
 ```
 
-## Iteration
-
-```
-const StarWars = ["Han", "C3PO", "R2D2", "Luke", "Leia", "Anakin"];
-```
-
-* Iterate over the `StarWars` array and print each element to the console.
-
-* Iterate over the `StarWars` array again and print each character's name **as well as** the value of `i`.
-
-CHALLENGE
-
-* Figure out how to iterate over **every second** element of the `StarWars` array, starting with the first element.
-
-> => Han, R2D2, Leia
-
-Skip this challenge if you end up spending too much time on it.
-
 <br>
 <hr>
 
@@ -242,7 +224,7 @@ Fundamentals, class, or that you find on your own.
 1. Open the **Terminal app**
 
 
-2. Create a new directory on your desktop called "`galaxy_far_far_away`" and enter it.
+2. Create a new directory in today's folder called "`homework_part_2`" and enter it.
 
 3. Create a directory called "**death_star**", and make the following files inside of it: "**darth_vader.txt**", "**princess_leia.txt**", "**storm_trooper.txt**"
 
@@ -387,9 +369,12 @@ This command will typically not ask you if you really want to delete. It will ju
 
 10. Celebrate.
 
+
+# YOU'RE DONE! GET SOME SLEEP!!! I'M SERIOUS!!!
+
 <br>
 
-Already feeling comfortable with these commands and want an extra challenge? Try doing the following:
+Want an extra challenge? Try doing the following, as long as you don't mess up the homework assignment you just did:
 
 * Try applying one command to multiple files at once.
 * Try applying one command to **all** files in a single directory (where necessery)
@@ -400,74 +385,6 @@ Already feeling comfortable with these commands and want an extra challenge? Try
 <br>
 <hr>
 
-<hr>
-
-# Section 6
-## Readings & Videos
-
-## Learning by Making Mistakes
-
-Read this article: http://www.psychotactics.com/art-retain-learning/
-
-### Answer the questions
-1. What was your biggest takeaway from this article?
-
-<hr>
-
-## Get to know Slack
-
-Download the Slack application on your computer and log in (please use the Slack app for class an not the in-browser application): https://slack.com/
-
-Download the Slack application on your phone and log in (if you have a smartphone). 
-
-Read this article: http://thenextweb.com/insider/2015/08/11/the-ultimate-guide-to-doing-anything-in-slack/#gref
-
-Watch this video: https://www.youtube.com/watch?v=gvJAcElFMUU
-
-### Answer the questions
-
-1) Name two things that you just learned about Slack that you didn't know before.
-
-2) Name one thing that you just learned about that you think would be useful for you to use in the Slack classroom. Why do you think it will be useful?
-
-<hr>
-
-
-# Section 7
-## Set Up for Success
-1) Make sure that your correct first and last name are on Zoom so that we know who you are in class.
-2) Make sure that your correct first and last name are displaying in Slack.
-3) Add a real photo of yourself in Slack so that we can put a face to a name.
-4) Setup your work space so that you can be successful and so we can **see your face in the camera**! Today was day 1 and hopefully it gave you an opportunity to see if your workspace is going to cut it. Take a few minutes now to clean off your desk, rearrange your seat / camera, order a new piece of equiptment that you need, etc.
-
 # Homework submission
 
-Note: This is not how you will be submitting your homework normally. This is just for tonight! We will go over how to submit your homework after your Github lesson on w01d02.
-
-1) Highlight all of your homework answers and **copy** them.
-
-2) Go to Slack. In the `DIRECT MESSAGES` section, click the `+` to send a direct message.
-
-![slack direct message](https://i.imgur.com/IyN4V9e.png)
-
-3) Search for Cathleen Wright:
-
-![cathleen](https://i.imgur.com/b3KBsMd.png)
-
-4) Click `Go`:
-
-![cathleen go](https://i.imgur.com/fL40fcP.png)
-
-A new view will appear and this is the direct Slack conversation between you and Cathleen.
-
-5) Click on the `+` next to the message bar and choose `Code or text snippet`
-
-![snippet](https://i.imgur.com/SFBdz4W.png)
-
-6) Paste a copy of all of the text / code from your homework file to this snippet, add a description in the title with your name and click `Create Snippet`
-
-![create code snippet](https://i.imgur.com/BZdETmP.png)
-
-7) Success! This will automatically send the message to Cathleen. It will look something like this:
-
-![success](https://i.imgur.com/7bQt0bE.png)
+Once you're finished with everything, leave it just as it is on your computer. For today only you won't actually be submitting your homework until the very beginning of class tomorrow. As we will be talking about git tomorrow at length, we will cover the standard homework submission proecss.  
