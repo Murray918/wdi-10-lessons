@@ -444,7 +444,9 @@ while (zum <= 1000) {
 
 <br>
 <hr>
+
 ### Discuss concept of 'expression' (something that has meaning to JS) and 'evaluation' and work through examples in the browser
+
 <br>
 <hr>
 
