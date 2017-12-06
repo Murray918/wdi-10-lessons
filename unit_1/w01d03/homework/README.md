@@ -1,42 +1,42 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDIR-Gizmo
+# chi-wdi-10-fluff-hounds
 
 ---
 Title: Arrays, Loops, and Conditional Reps <br>
 Type: Homework<br>
 Duration: "4:00"<br>
 Creator: WDI-Funke<br>
-    Modified by: Kristyn Bryan<br>
-    Course: WDIR-Gizmo<br>
+    Modified by: Kristyn Bryan and then by: Reuben Ayres<br>
+    Course: chi-wdi-10<br>
 Competencies: Arrays, Loops, Conditionals <br>
-Prerequisites: JavaScript <br>
+Language: JavaScript <br>
 
 ---
 # Homework
 
 ## Setup
 
-1) In your terminal, navigate to to the `homework` folder inside today's folder (`w01d03`).
+1) Get in your `fluff_hounds` folder.
 
-2) Create a javascript file inside your `homework` folder to record your answers (maybe name it `answers.js`).
+1.5) From inside of fluff-hounds, Fork this repo and clone it.  
+
+2) (Did you see this coming?) Build our file structure and put your answers in app.js.
 
 3) Keep your answers organized! Included a commented header for each section in your answers file.
 
-4) TEST YOUR WORK! Make sure that your code works
-:elephant: `node name_of_your_file.js`.
+4) For the purposes of keeping a tidy console while you work, comment out each exercise once it is completed and working, so that you're just looking at output from the one you completed.  Maybe when you're done, it would be nice to uncomment everything so we can see all the output at once while grading. But remember: if, later, you uncomment everything and try to reuse a variable name that you had previously `let`ed, you'll get an error.
 
 5) If you're stuck on something for "too long" or get overly frustrated, make a comment and move on. Return to it later.
 
 6) After each section (even if you're not fully done with it), *add* and *commit* your work.
 
-Please use the commit messages that you see at the end of each section (modify it if you need to). We will see these messages on Github. It will help us to see your progress. If you go back and fix a section, commit again with an updated message.
+Please use the commit messages that you see at the end of each section (you can modify if necessary). We will see these messages on Github. It will help us to see your progress. If you go back and fix a section, commit again with an updated message.
 
-7) When you are done with your homework, push it to your `origin` (this is your Github) and make an issue on our repo.
+7) When you are done with your homework, push and make a pull request.
 
-Final note: You are not alone! Everyone else in the class is working on this as well. Send Slack messages, make a Zoom channel, or meet with the TA to discuss sticking points.
+Final note: You are not alone! Everyone else in the class is working on this as well. Communicate with each other on Slack.
 
-![Image of baby doing workout](http://www.sarahjm.net/wp-content/uploads/2013/09/SarahJM-funny-baby-510x301.jpg)
 
 ## Easy Going
 1. Write a for loop that will log the numbers 1 through 20.
@@ -69,7 +69,10 @@ Final note: You are not alone! Everyone else in the class is working on this as 
 "Commit 3 - Excited Kittens answered"
 <hr>
 
-## Fizz Buzz
+## Fizz Buzz 
+
+>NOTE: THIS IS A CLASSIC RITE-OF-PASSAGE FOR JAVASCRIPT PROGRAMMERS, ESPECIALLY ONES AT GA
+
 1. Write a javascript application that logs all numbers from 1 - 100.
 
 2. If a number is divisible by 3 log "Fizz" instead of the number.
@@ -190,23 +193,21 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 "Commit 9 - Project Euler Problem 1 answered"
 <hr>
 
-# HTML & CSS
+---
+# MAKE A PULL REQUEST TO SUBMIT YOUR HOMEWORK.
 
-Watch the following videos as a refresher on HTML and CSS. We recommend that you watch them once in the evening and again in the morning before class. You will be working on practicing HTML in your Morning Exercise.
+# Dude that was a lot of coding. Have a beer! Or a ginger tea. or pet some puppies, or eat snacks, or watch Star Trek Deep Space Nine, or whatever you do to relax. then get some sleep.
 
-[HTML Video 1](https://www.youtube.com/watch?v=DxhXFpsN5I4&index=1&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)
+# EVERYTHING ABOVE THIS LINE IS DUE BEFORE CLASS THURSDAY 12/7. ("Wednesday Night's Homework").
 
-[HTML Video 2](https://www.youtube.com/watch?v=KhbnrDhWDdE&index=2&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)
-
-<hr>
-
-
-
-# Hungry for More
+# Everything below this line is due before class Friday 12/8 (i.e. "Thursday Night's Homework, part 1 of maybe 2").
+---
 
 ## Triangles
 
-1. Write a loop that console logs a **right isosceles triangle** made of '#' that has the height and length of the argument.
+0. declare a variable `argument` and set it equal to 7.
+
+1. Write a loop that console logs a "left isosceles" triangle (SEE BELOW) made of '#' that has the height and length of `argument`.
 
 >Ex: argument is 7
 ```
@@ -219,10 +220,25 @@ Watch the following videos as a refresher on HTML and CSS. We recommend that you
 #######
 ```
 
-2. Write a loop that console logs an **upside down right isosceles triangle** made of '#' that has the height and length of the argument.
+2. Write a loop that console logs a "right isosceles" triangle (SEE BELOW) made of '#' that has the height and length of `argument`.
 
->Ex: argument is 6
+>Ex: argument is 7
 ```
+      #
+     ##
+    ###
+   ####
+  #####
+ ######
+#######
+```
+
+
+3. Write a loop that console logs an "upside down left" isosceles triangle made of '#' that has the height and length of the argument.
+
+>Ex: argument is 7
+```
+#######
 ######
 #####
 ####
@@ -231,11 +247,25 @@ Watch the following videos as a refresher on HTML and CSS. We recommend that you
 #
 ```
 
+4. Write a loop that console logs an "upside down right" isosceles triangle made of '#' that has the height and length of the argument.
+
+>Ex: argument is 7
+```
+#######
+ ######
+  #####
+   ####
+    ###
+     ##
+      #
+```
+
+5. Change the value of argument and reload your code and marvel at how you just solved a challenging problem and feel proud of yourself.
+
 <hr>
 &#x1F534; The commit message should read: <br>
 "Commit 10 - Triangles answered"
 <hr>
-
 
 ## Find the Median
 - Find the median number in the following `nums` array, then console.log that number.
@@ -253,19 +283,4 @@ Expected output:
 "Commit 11 - Find the Median answered"
 <hr>
 
-## Still Hungry?
 
-1. Finish the questions from the morning lab
-
-2. Finish the questions from the afternoon lab
-
-3. Finish the morning exercise
-
-<hr>
-&#x1F534; The commit message should read: <br>
-"Commit 12 - Hungry for More: I tackled..."
-<hr>
-
-
-# Reminder
-Remember to submit an issue to our class repository with your work by 10 am Eastern tomorrow morning! Need a reminder on how to submit? Check out the link in your [class wiki](https://github.com/ga-students/wdi-remote-gizmo/wiki/Homework-Submission).
