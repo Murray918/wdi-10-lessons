@@ -4,8 +4,8 @@
 <hr>
 Title: Arrays & Conditionals<br>
 Type: Lab<br>
-Duration: 1.5 hr<br>
-Creator: Kristyn Bryan<br>
+Duration: 0:45ish<br>
+Adapted by Reuben Ayres from a lab created by: Kristyn Bryan<br>
 Topics: Using arrays, loops, and conditionals to solve problems.<br>
 <hr>
 
@@ -13,7 +13,7 @@ Topics: Using arrays, loops, and conditionals to solve problems.<br>
 
 ## Directions
 
-Use the file `afternoon_lab_solutions.js` to write arrays, loops, `if`, or `if, else` statements to complete the following questions. Refer back to your class notes from today if you need help.
+Create an 'afternoon_lab_loops_and_arrays' folder with our standard file structure. Use the app.js file to write arrays, loops, `if`, or `if, else` statements to complete the following questions. Comment out completed exercises so that you're only looking at console output from the exercise you're working ont.  Refer back to your class notes from today if you need help.  Failing that, ask the person sitting next to you.  Failing that, try using google like we did in class.  If you're desperate after trying all of that, I'm obviously here to answer questions as a last of the last resort but self-reliance and comfort finding and trying answers online is a very important discipline of its own. 
 
 ## Exercises
 
@@ -30,7 +30,7 @@ Given the following array `const randomThings = [1, 10, "Hello", true]`
 3. Check the value of the array to make sure it updated the array.
 
 ### We've Got Class
-Given the following array `const ourClass = ["Gizmo", "Zoom", "Github", "Slack"]`
+Given the following array `const ourClass = ["Fluff-Hounds", "Zoom", "Github", "Slack"]`
 
 1. What would you write to access the 3rd element of the array?
 
@@ -39,7 +39,7 @@ Given the following array `const ourClass = ["Gizmo", "Zoom", "Github", "Slack"]
 3. Add a new element, "Cloud City" to the array.
 
 ### Mix It Up
-4. Given the following array `const myArray = [5 ,10 ,500, 20]`
+Given the following array `const myArray = [5 ,10 ,500, 20]`
 
 1. using the `push` method, add the string `"Egon"` to the end of the array.
 
@@ -63,12 +63,11 @@ Write an `if...else if...else` statement:
 
 1. console.log `little number` if the number entered is less than **5**.<br>
 
-2.  If the number entered is more than 10, log `big number`.
+2. If the number entered is more than 10, log `big number`.
 
 3. Otherwise, console.log "monkey". <br>
 
 ### What's in Your Closet?
-
 Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript.
 
 ```javascript
@@ -121,3 +120,5 @@ const thomsCloset = [
 8. Log a sentence about what Thom's wearing. Example: `"Thom is looking fierce in a grey button-up, jeans and wool scarf!"`
 
 9. Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to `Footie Pajamas`.
+
+Hit the alien emoji in Slack when you're done. 
