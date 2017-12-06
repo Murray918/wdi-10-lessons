@@ -13,7 +13,11 @@ Topics: Using arrays, loops, and conditionals to solve problems.<br>
 
 ## Directions
 
-Create an 'afternoon_lab_loops_and_arrays' folder with our standard file structure. Use the app.js file to write arrays, loops, `if`, or `if, else` statements to complete the following questions. Comment out completed exercises so that you're only looking at console output from the exercise you're working ont.  Refer back to your class notes from today if you need help.  Failing that, ask the person sitting next to you.  Failing that, try using google like we did in class.  If you're desperate after trying all of that, I'm obviously here to answer questions as a last of the last resort but self-reliance and comfort finding and trying answers online is a very important discipline of its own. 
+Create an 'afternoon_lab_loops_and_arrays' folder.
+
+Clone (don't fork, just clone) this repo into your that folder.  Build our standard file structure in that folder.  Do a commit.
+
+Use the app.js file to write arrays, loops, `if`, or `if, else` statements to complete the following questions. After each exercise is complete, do a commit. Comment out completed exercises so that you're only looking at console output from the exercise you're working ont.  Refer back to your class notes from today if you need help.  Failing that, ask the person sitting next to you.  Failing that, try using google like we did in class.  If you're desperate after trying all of that, I'm obviously here to answer questions as a last of the last resort but self-reliance and comfort finding and trying answers online is a very important discipline of its own. 
 
 ## Exercises
 
