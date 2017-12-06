@@ -387,4 +387,4 @@ Want an extra challenge? Try doing the following, as long as you don't mess up t
 
 # Homework submission
 
-Once you're finished with everything, leave it just as it is on your computer. For today only you won't actually be submitting your homework until the very beginning of class tomorrow. As we will be talking about git tomorrow at length, we will cover the standard homework submission proecss.  
+Once you've got your homework all done and on github, do a pull request to get it submitted. NICE JOB

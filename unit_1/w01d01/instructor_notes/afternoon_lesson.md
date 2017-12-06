@@ -516,7 +516,7 @@ Console.log each boolean expression
 <br>
 </hr>
 
-TALK ABOUT DO-WHILE, make up an example on the fly
+### TALK ABOUT DO-WHILE, make up an example on the fly
 
 <br>
 <hr>
