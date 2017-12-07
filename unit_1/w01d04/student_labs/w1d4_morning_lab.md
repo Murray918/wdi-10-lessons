@@ -1,10 +1,11 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDI-Gizmo
+# wdi-10-chi fluff-hounds
 
 <hr>
 Title: Morning Lab<br>
 Creator: Thom Page<br>
+Adapted by: Reuben Ayres<br>
 Topics: Problem solving with functions<br>
 <hr>
 
@@ -87,3 +88,26 @@ A number of length n is _1-to-n pandigital_ if it makes use of all the digits 1 
 
 
 Write a function that checks if a number is _1-to-n pandigital_.
+
+### printGreeting v2.0
+
+There is a very rudimentary JavaScript function for receiving user input called prompt().  
+
+Usage: 
+
+```
+	var userInput = prompt("Please enter some input");
+```
+
+> `userInput` is now whatever the user entered.
+
+There is another rudimentary JavaScript function for displaying text called alert(). You probably have heard of it. It takes a string as a parameter. Read about it on mdn.
+
+Let's revisit your printGreeting.
+
+First get the userinput as above. Then write a function called `printGreeting2` with a parameter `name` that returns a greeting with the argument interpolated into the greeting as before, but this time use the alert function to display the greeting to the user. 
+
+
+<br>
+<hr>
+
