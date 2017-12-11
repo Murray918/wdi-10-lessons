@@ -1,13 +1,16 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDI-GIZMO
+# wdi-10-chi
 
 ---
-Title: Morning Lab<br>
-Contributors: Kristyn Bryan and Thom Page<br>
+Title: Objects Lab 1: Object Fundamentals<br>
+Original Contributors: Kristyn Bryan and Thom Page<br>
+Adapted by: Reuben Ayres <br>
 Topics: JavaScript objects
 
 ---
+
+![Wesley Crusher](http://pop-verse.com/wp-content/uploads/2013/07/wesleycrusher.jpg)
 
 # Morning Lab
 
@@ -39,7 +42,7 @@ The object would look something like this if we console logged it:
 console.log(me);
 ```
 
-> => {name: "Kristyn", age: 98, email: "kristyn@foo.bar"}
+> => {name: "Reuben", age: 98, email: "Reuben@foo.bar"}
 
 
 3. Using dot notation, access the **name** property in your object.<br>
@@ -69,26 +72,6 @@ const monster = {
 
 <br>
 <hr>
-
-## Ogres
-
-Let's say you want to make an adventure game where you are an adventurer and you are going to fight **ogres**.
-
-Using **objects**, create **models** and have them interact.
-
-* how would you model your `adventurer`? Your adventurer will want a **name** and **hitpoints**. What else would your adventurer need?
-* how would you model an `ogre`? Your ogre will want **hitpoints**.
-
-* Write a very small program that will simulate a battle between your adventurer and an ogre. You can use the same techniques you used in your **landscaping** game from the weekend.
-	* When your adventurer's hitpoints reach 0 the game is over.
-	* When your ogre's hitpoints reach 0 the game is over.
-
-* If you want to provide input to the game, you can run it in the Chrome console (but that isn't strictly necessary for now).
-
-<br>
-<hr>
-
-# EXTRA STUFF
 
 ## Cat Combinator
 
@@ -185,7 +168,30 @@ Your output should look something like:
 <br>
 <hr>
 
-# Extra Activities
+## 5. Ogres
+
+Let's say you want to make an adventure game where you are an adventurer and you are going to fight **ogres**.
+
+Using **objects**, create **models** and have them interact.
+
+* how would you model your `adventurer`? Your adventurer will want a **name** and **hitpoints**. What else would your adventurer need?
+* how would you model an `ogre`? Your ogre will want **hitpoints**.
+
+* Write a very small program that will simulate a battle between your adventurer and an ogre.  Certain data will need to go in certain places.  Game-wide data can go in the global scope.  Data related to each character should be in its object on only accessed through the object.  Remember that functions can work with objects, and that objects can have functions that manipulate their own data.  We will talk about app design more explicitly in class, but if you have questions about 
+
+* For today, the game will be rigged—you'll decide how it should go and implement it with various control structures **OR** you will write methods and call them from the console.
+
+	* Have adventurer and ogre battle each other.
+	* When your adventurer's hitpoints reach 0 the game is over (you'll have to check stuff!)
+	* When your ogre's hitpoints reach 0 the game is over (you'll have to check stuff!)
+
+>Hint you could use a global scope variable for whether or not the game is over.
+
+
+<br>
+<hr>
+
+# More Activities
 
 ## User object
 
@@ -266,3 +272,4 @@ The function does not need a `return` statement, it will merely modify the user 
 
 <br>
 <hr>
+* If you want to provide input to the game, you can run it in the Chrome console (but that isn't strictly necessary for now).
