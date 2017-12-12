@@ -1,20 +1,27 @@
-![ga](http://mobbook.generalassemb.ly/ga_cog.png)
-
-# WDI-GIZMO
+# wdi-10-chi object lab 2 (12/12/2017)
 
 ---
+
+![BEVERLY CRUSHER](https://startreksentinel.files.wordpress.com/2015/07/doctor-beverly-crusher.jpg)
+
+---
+
 Title: The solar system<br>
-Creator: Thom Page<br>
+Created by: Thom Page<br>
+Adapted by: Reuben Ayres<br>
 Topics: Accessing arrays of objects and object properties
 
 ---
 
-# Afternoon Lab
 
-### Nested data: Arrays of Objects
 
-* Make a file `solar_system.js` in your student_labs directory for today
-* Do your work in the `solar_system.js` file
+## Nested data, Arrays of Objects, etc.
+
+* Make a directory `solar_system_object_lab` in your directory for today....
+
+# ...DO --NOT-- USE FINDER!  USE COMMAND LINE.
+
+* Make a folder structure in there. Do your work in the `app.js` file.
 
 
 ## The solar system, part 1
