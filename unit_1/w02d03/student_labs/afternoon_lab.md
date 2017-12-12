@@ -248,15 +248,20 @@ When you `console.log(system)`, planetX should be appear as a planet in the syst
 <hr>
 <br>
 
-# ADVANCED (Bonus material)
+# Let's turn it up a notch.
 
 Self-guided study and research:
 
 ## sorting an array of objects
 
+Create an array of ten different numbers that are not in numerical order and an array of words that are not in order alphabetically.
+
+Reasearch the Array.prototype.sort() method on MDN and use it to sort the two arrays. 
+
+
 ### Research
 
-You might have used `.sort()` to sort a regular array, but you can also use `.sort()` to sort an array of objects by the values stored in each object.
+You can also use `.sort()` to sort an **array of objects** by the values stored in each object.
 
 Example:
 
@@ -285,10 +290,6 @@ However, you can provide `.sort()` with arguments to tell JavaScript which **obj
 Read the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) -- scroll down to: **Objects can be sorted given the value of one of their properties.**
 
 ### 1. use .sort() to sort the solar system array alphabetically according to the name of each planet
-
-<br>
-
-EXTRA CHALLENGE-CHALLENGE
 
 ### 2. write a function `sortArrayOfObjects` with two parameters: `arr` and `key` that will sort any array of objects by the `key` input.
 
