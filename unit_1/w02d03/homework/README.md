@@ -1,23 +1,33 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDIR-Gizmo
+# wdi-10-chi
+
+![It's time for Beverly (you) to get in the Captain's chair](http://i183.photobucket.com/albums/x54/TrueX-Ray/TNG%20Caption%20This/TNGCaption287c.jpg)
+
+It's time for Beverly (you) to get in the Captain's chair
 
 ---
-Title: JS Datatypes<br>
+Title: JS Datatypes up thru Objects<br>
 Type: Homework<br>
 Duration: "4:00"<br>
 Creator: Thom Page & Matt Huntington<br>
-    Course: WDIR-Hopper, WDI-Lettuce<br>
 Modified by: Kristyn Bryan<br>
+Adapted by: Reuben Ayres<br>
 Competencies: Objects, Arrays, Loops <br>
-Prerequisites: JavaScript <br>
+
 
 ---
-# Homework
+# Homework 4: Objects 
 
-## Setup
-1. Inside your `homework` folder for tonight, create an `answers.js` file.
-2. Write your answers in this file. Use comments for the non-code responses.
+## Assigned: Tuesday 12/12/2017
+
+## Due: Wednesday 12/13/2017 11:59pm -- hard deadline
+
+1. Fork and Clone
+2. Do the file thing, use app.js
+3. Submit w/ pull request
+
+---
 
 ## Datatypes
 
@@ -47,7 +57,7 @@ For each of the following, write which **datatypes** you would use to represent 
 <hr>
 &#x1F534; **Commit your work.**<br>
 The commit message should read: <br>
-"1st commit - selecting datatypes".
+"selecting datatypes done".
 <hr>
 
 ## Take it Easy
@@ -60,7 +70,8 @@ The commit message should read: <br>
 <hr>
 &#x1F534; **Commit your work.**<br>
 The commit message should read: <br>
-"2nd commit - created some data structures and accessed some data".
+"created some data structures and accessed some data: done".<br>
+or something like that.
 <hr>
 
 ## Crazy Object!
@@ -108,7 +119,7 @@ Use crazy Object to log the following.
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"3rd commit - performed operations on the crazy object".
+"performed operations on the crazy object".
 <hr>
 
 # Object-ception
@@ -140,7 +151,7 @@ Change the value of `limbo` to `null`.
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"4th commit - accessed limbo".
+"accessed limbo".
 <hr>
 
 ## Bond Films
@@ -182,7 +193,7 @@ Yikes. Well, copy the bondFilms **array** of **objects** above into your js file
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"5th commit - Made an array of bond titles".
+"Made an array of bond titles".
 <hr>
 
 * Create a new array `oddBonds`, of only the Bond films released on odd-numbered years.
@@ -190,7 +201,7 @@ The commit message should read: <br>
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"6th commit - made an array of odd bonds".
+"made an array of odd bonds".
 <hr>
 
 * Determine the total cumulative gross of the Bond franchise, and console.log the result. _hint_ To make the grosses into usable numbers, look into the `.replace` Javascript method (there are many ways to do this, however). Look into `parseInt` also.
@@ -198,32 +209,16 @@ The commit message should read: <br>
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"7th commit - determined the bond films gross".
+"determined the bond films gross".
 <hr>
 
+If you're thinking about splitting this up into two days, this might be a nice stopping point.
 
-# CSS
-
-You will be using these CSS skills for tomorrow’s Morning Exercise. You watched these videos this weekend, but we recommend reviewing them again before morning exercise.
-
-* [Box Model](https://www.youtube.com/watch?v=HNgdhp1_kEE&index=6&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 7:17
-
-* [CSS Display](https://www.youtube.com/watch?v=qjSe_K3agYc&index=7&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 6:24
-
-* [Positioning](https://www.youtube.com/watch?v=zH8kjJdvmOs&index=8&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 11:57
-
-* [Units of measure I](https://www.youtube.com/watch?v=5axuSSBIMuQ&index=9&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 10:25
-
-* [Units of measure II](https://www.youtube.com/watch?v=ZfxNpQm6m2g&index=10&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 14:27
-
-#### Congrats! You have completed the homework
-
-<br>
 <hr>
 
-# Hungry For More?
+## Digging Deeper 
 
-CHALLENGE
+### CHALLENGE
 
 `bondFilms` again!
 
@@ -283,11 +278,26 @@ Good luck!
 <hr>
 &#x1F534; **Commit your work.** <br>
 The commit message should read: <br>
-"8th commit - Humdinger".
+"Humdinger".
+
 <hr>
 
-## Hungry For Even More?
+### Congrats! You have completed the homework.  Been annoyed with CSS?  Check out the sweet vids below or some other vids entirely and ask us in the early AM.
 
-* Complete this morning's lab
+---
 
-* Complete this afternoon's lab
+![Dr. Crusher](http://i183.photobucket.com/albums/x54/TrueX-Ray/TNG%20Caption%20This/TNGCaption306c.jpg)
+
+---
+
+## CSS resources if you just can't put your computer away
+
+* [Box Model](https://www.youtube.com/watch?v=HNgdhp1_kEE&index=6&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 7:17
+
+* [CSS Display](https://www.youtube.com/watch?v=qjSe_K3agYc&index=7&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 6:24
+
+* [Positioning](https://www.youtube.com/watch?v=zH8kjJdvmOs&index=8&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 11:57
+
+* [Units of measure I](https://www.youtube.com/watch?v=5axuSSBIMuQ&index=9&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 10:25
+
+* [Units of measure II](https://www.youtube.com/watch?v=ZfxNpQm6m2g&index=10&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 14:27
