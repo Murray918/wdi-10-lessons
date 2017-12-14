@@ -7,6 +7,7 @@ Duration: 3 hr<br>
 Creator: WDI-Archer, WDI-Funke <br>
 Modified by: Jim Haff<br>
 Topics: Using objects, the keyword `this` and methods to create a game while focusing on OOP, array filter<br>
+Currant usage: wdi-10-chi, Thursday 12/14/2017
 <hr>
 
 ![pokemon cards](https://i.ytimg.com/vi/5pDthGSHo58/maxresdefault.jpg)
@@ -15,12 +16,7 @@ Topics: Using objects, the keyword `this` and methods to create a game while foc
 
 You are going to create a simple card game in which a player will be able to battle the autoplayer. The game will keep an array of cards and will deal 3 as the autoplayer to "fight" against the three that you play. Each of your cards will have some values associated with it. You will have to compare the value of your card to the computer's card to see which one wins.
 
-Inside your `student_labs` folder for today, create a folder called `pokemona_card_app`. You will need to create the following:
-1. an `index.html` file to hold your HTML code.
-2. a `pokemon.js` file to hold your JavaScript code inside a `javascript` folder.
-3. a `style.css` file to hold your CSS code inside a `styles` folder.
-4. Attach these files. Remember to connect the CSS file inside the "head" portion of your HTML and connect the JavaScript file right *before* the closing "body" tag of your HTML file.
-5. Before tackling the lab, use a console.log in your js file and change the "body" of your application in your CSS file to **confirm** that they have been connected properly.
+Inside your folder for today, create a folder called `pokemon_card_app_lab` with our file structure.
 
 
 ## Object Oriented Programming
