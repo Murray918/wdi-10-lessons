@@ -4,20 +4,21 @@
 
 ---
 Title: Combining data types/Callbacks<br>
-Type: Quiz/In-class assignment **in pairs**<br>
+Type: Quiz/In-class assignment<br>
 Creator: Matt Huntington<br>
 Adapted by: Reuben Ayres<br>
 Competencies: Objects, Arrays, Loops <br>
 Prerequisites: JavaScript <br>
 
 ---
-# Important
+## Important
 
-Before starting this homework, please read this set of [Tips and Tricks](../instructor_notes/TIPS.md)
+Before starting this, please read this set of [Tips and Tricks](../instructor_notes/TIPS.md)
 
 ## Setup
 
-1. Create a file called `answers.js` inside your `homework` folder for today.
+0. **IMPORTANT: Read all instructions on this quiz very carefully before you do them!**
+1. Create a `quiz` folder in today's folder, and inside of that folder do you know what.
 2. Copy the questions that you are answering into your file (and comment it out) and write the answer below the question.
 
 ## Combine objects, arrays, and functions
@@ -178,30 +179,6 @@ const foo ()=>{
 "Commit 8 - Error reading"
 <hr>
 
-## Using the Javascript Debugger
-
-- Debug the following code in node and in the browser.
-    - Node: `node debug filename.js`
-    - Browser: load it into an html file and open the html file in the browser with the Chrome dev tools enabled (Inspect)
-
-    ```javascript
-    const a = 2 + 2;
-    debugger
-    console.log(a);
-    debugger
-    a *= 2;
-    debugger
-    a--;
-    ```
-
-- Jump from one debugger statement to the next
-    - Node: `c`
-    - Browser: blue play button
-
-- Examine the variable `a` each time you jump to a new statement
-    - Node: `repl` and then type the variable
-    - Browser: type the variable in the console
-
 ## Coerce data types
 
 Fix the following code so the log executes (don't change the `if` statement):
@@ -225,172 +202,4 @@ console.log(5 + a);
 <hr>
 &#x1F534; The commit message should read: <br>
 "Commit 9 - Coerce data types"
-<hr>
-
-
-<hr>
-
-# Style Zoo
-
-In this homework we will be using basic HTML and CSS selectors to style a list of animals in our zoo.
-
-## Setup
-
-1. Make a folder inside your `homework` folder for today called `style_zoo`
-2. Navigate inside your `style_zoo` folder and **create a file** called `index.html`.
-4. **Create another file** inside the `style_zoo` folder called `style.css`.
-5. Connect the CSS file to your HTML file.
-
-#### Need a refresher on how to connect your CSS to your HTML?
-   - Place a link tag inside the `head` section of your HTML file that refers to your css file:    
-    `<link rel="stylesheet" href="style.css">`
-
-## Create Your Zoo
-
-### Create the HTML
-
-- Make a list of animals!
-- Create an HTML file with a boilerplate.
-- Add an unordered list of the following animals:  
-    * mouse  
-    * canary  
-    * penguin  
-    * salmon  
-    * cat  
-    * goldfish  
-    * dog  
-    * sheep  
-    * parakeet  
-    * tuna  
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"Commit 10 -  initial HTML setup".
-<hr>
-
-
-### Add Classes and IDs to the Animals
-
-Based on your knowledge of these animals, assign the following:
-
-1. Class `mammal` to all the mammals.
-2. Class `bird` to all the birds.
-3. Class `fish` to all the fish.
-4. ID of the name of the animal to each of the animals (ex: `<li class="fish" id="tuna">tuna</li>`)
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"Commit 11 -  classes and IDs added to HTML".
-<hr>
-
-## Style Your Animals
-
-### Style the animal groups
-
-1. Create a css file (name it `style.css`) and connect it to your html document
-1. Make all the text of the mammals red
-1. Make all the text of the birds blue
-1. Make all the text of the fish orange
-
-#### What yours should look like
-![Answer1](http://i.imgur.com/jkCG6id.png)
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"Commit 12 -  added styling to classes".
-<hr>
-
-### Style the individual animals
-
-- Add a **background color** to the following animals:
-
-1. mouse: lightgray
-1. canary: orangeRed  
-1. penguin: black
-1. salmon: salmon
-1. cat: sienna
-1. goldfish: gold
-1. dog: tan
-1. sheep: steelBlue
-1. parakeet: lime
-1. tuna: purple
-
-#### What yours should look like
-![Answer2](http://i.imgur.com/fMfxMbu.png)
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"Commit 13 - added styling to ids".
-<hr>
-
-### Let's add some borders to your groups
-
-1. Add a margin of 10px to all of the `li`s
-
-In addition, add a border (5px solid) with the specified color to your classes:
-
-1. mammal - PaleVioletRed
-1. bird - CornflowerBlue
-1. fish - DarkSlateGray
-
-#### What yours should look like</summary>
-![Answer3](http://i.imgur.com/jQoE9dw.png)
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"Commit 14 - styled borders".
-<hr>
-
-
-### Bold, italics, and underline (oh my!)
-
-1. Make the mammals bold
-1. Make the birds italic
-1. Make the fish underlined
-1. Strikethrough your least favorite animal on the list.
-
-#### What yours should look like</summary>
-![Answer4](http://i.imgur.com/13TCWa5.png)
-
-<hr>
-&#x1F534; **Commit your work.** <br>
-The commit message should read: <br>
-"Commit 15 -  bold, italics, underlining, and strikeout".
-<hr>
-
-<hr>
-
-# CSS Videos
-
-#### Advanced Selectors
-
-1. Watch [this video](https://www.youtube.com/watch?v=Zudl-fCDSdM&index=14&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J) about family selectors.
-1. Watch [this video](https://www.youtube.com/watch?v=PuF0drOMN3E&index=15&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J) about attribute selectors.
-
-#### Responsive Design
-
-1. Watch [this video](https://www.youtube.com/watch?v=BsuCBmzLf_U&index=21&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J) an introduction to responsive design.
-1. Watch [this video](https://www.youtube.com/watch?v=iQIj7Lu64M4&index=22&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J) about mobile first design using min/max-width/height
-1. Watch [this video](https://www.youtube.com/watch?v=GYygtVolViM&index=23&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J) about media queries.
-
-# Reading
-Please read these quick articles to prepare for an exercise using pair programming:
-
-1. http://www.wikihow.com/Pair-Program
-2. https://www.thoughtworks.com/insights/blog/10-ways-improve-your-pairing-experience
-
-# Hungry for more?
-
-- Go back and complete all problems for Section 1 (Combine objects, arrays, and functions)
-- Go back and complete all problems for Section 2 (Combine objects, arrays, and functions more than one level deep)
-
-**Commit 16** <br>
-<hr>
-&#x1F534; The commit message should read: <br>
-"Commit 16 - Worked on Hungry for More"
 <hr>

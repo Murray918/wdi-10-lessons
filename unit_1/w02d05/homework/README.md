@@ -1,14 +1,15 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDIR-Gizmo
+# wdi-10-chi HW 5
+
+# due Monday Dec 18, 8:00pm
 
 ---
 Title: JS Objects, Iterators & Object Methods<br>
 Type: Homework<br>
 Duration: "8:00 - 16:00"<br>
 Creator: Thom Page & Kristyn Bryan <br>
-    Course: WDIR-Hopper, WDIR-Matrix<br>
-Modified by: Kristyn Bryan<br>
+Modified by: Kristyn Bryan and Reuben Ayres<br>
 Competencies: Objects <br>
 Prerequisites: JavaScript, Objects, Iterators <br>
 
@@ -17,8 +18,7 @@ Prerequisites: JavaScript, Objects, Iterators <br>
 
 ## Setup
 
-1. Make a file inside your `homework` folder for w02d05 called `object_answers.js`.
-2. Write all of your code in `object_answers.js`.
+1. Fork - Clone - Make Folders - DO THE COMMITS - Make a pull request
 
 :elephant: Remember to test each of your answers!
 

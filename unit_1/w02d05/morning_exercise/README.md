@@ -1,7 +1,8 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDIR-Gizmo
+# wdi-10-chi
 
+![Q](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLVm8_HwxrOhklycU6W0CazJ8Ofsn9sVJa_TtQ2Is1AsLP4IUICw)
 ---
 Title: Responsive Mockup<br>
 Type: Morning Exercise <br>
@@ -12,6 +13,7 @@ Creator:<br>
     Course: WDIR-Hopper<br>
 Competencies: HTML, CSS, Responsive design <br>
 Prerequisite Videos:
+
 #### Advanced Selectors
 1. Watch [this video](https://www.youtube.com/watch?v=Zudl-fCDSdM&index=14&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J) about family selectors.
 1. Watch [this video](https://www.youtube.com/watch?v=PuF0drOMN3E&index=15&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J) about attribute selectors.
@@ -27,7 +29,7 @@ Prerequisite Videos:
 
 ## Setup
 
-1. Navigate inside today's `student_examples` folder `w02d05/student_examples`
+1. Navigate inside today's folder.
 2. Create a folder called `responsive_mockups`
 3. Navigate inside the `responsive_mockups` folder we need to create *three* folders that each have *two* files:
    >Folders: `responsive_one`, `responsive_two`, `responsive_three`
