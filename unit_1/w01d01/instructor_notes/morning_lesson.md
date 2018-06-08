@@ -1,6 +1,6 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# chi-wdi-10 Fluff Hounds
+# WDI
 
 ---
 
@@ -217,13 +217,13 @@ Example:
 * Be obsessive, starting today
 * Make one folder where everything from the class will live
 
-`mkdir ga_wdi_fluff_hounds` (or `wdi` or `ga` or `fluff_hounds` etc)<br>
-`cd ga_wdi_fluff_hounds`
+`mkdir ga_wdi_funky_ducks` (or `wdi` or `ga` or `` etc)<br>
+`cd ga_wdi_funky_ducks`
 
 * In that folder, make a new folder for each day, and go into it.
 
-`mkdir 12_04_2017`<br>
-`cd 12_04_2017`
+`mkdir 6_11_2018`<br>
+`cd 6_11_2018`
 
 * In that folder make a new folder for each lesson or activity and give that folder a nice descriptive name
 
@@ -444,7 +444,7 @@ Open this folder structure in chrome and click on index.html.  Open the develope
 
 > => Hello World!
 
-**Congrats!** You've written your first "Hello World" of **wdi-10-chi-fluff-hounds**!
+**Congrats!** You've written your first "Hello World" of **ga_wdi_funky_ducks**!
 
 <br>
 <hr>
