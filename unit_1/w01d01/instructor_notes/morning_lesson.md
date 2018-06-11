@@ -426,19 +426,17 @@ We are going to:
 	`mkdir js`<br>
 	`touch js/app.js`<br>
 
-* This will be our standard front-end file structure for the next 4-ish weeks (or 6 if you include the break)
+* This will be our standard front-end file structure for the next 4-ish weeks
 
 * Let's print a message to the console. It is somewhat of a tradition to write a 'Hello World' program as a first step in programming.
 
-**PAUSE HERE TO SET UP SUBLIME ALIAS <br>
-and for DISCUSSION OF .BASH_PROFILE AND SOURCE**
 
 * Open the file structure in Sublime Text using your fancy new shortcut (PC Open Folder)
 
 Add to your app.js:<br>
 `console.log('Hello World!');`
 
-**PAUSE HERE TO SET UP CHROME ALIAS**
+
 
 Open this folder structure in chrome and click on index.html.  Open the developer tools.  You should see:
 
@@ -449,10 +447,4 @@ Open this folder structure in chrome and click on index.html.  Open the develope
 <br>
 <hr>
 
-this lesson does not include 
 
-rmdir
-
-rm 
-
-mv (other than where i mentioned it)
