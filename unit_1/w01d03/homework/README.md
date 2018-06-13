@@ -19,9 +19,9 @@ Language: JavaScript <br>
 
 1) Get in today's directory in your `funky-ducks` folder.
 
-1.5) From inside of fluff-hounds, Fork this repo and clone it.  
+1.5) From inside of today's directory, Fork this repo and clone it.  
 
-2) (Did you see this coming?) Build our file structure and put your answers in app.js.
+2) (Did you see this coming?) Build our file structure and put your answers in `app.js`.
 
 3) Keep your answers organized! Included a commented header for each section in your answers file.
 
@@ -194,11 +194,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 <hr>
 
 ---
-# MAKE A PULL REQUEST TO SUBMIT YOUR HOMEWORK.
+# SUBMIT YOUR HOMEWORK.
 
-# Dude that was a lot of coding. Have a beer! Or a ginger tea. or pet some puppies, or eat snacks, or watch Star Trek Deep Space Nine, or whatever you do to relax. then get some sleep.
+### Dude that was a lot of coding. Have a beer! Or a ginger tea. Or pet some puppies, or eat snacks, or watch Star Trek Deep Space Nine, or whatever you do to relax. then get some sleep.
 
-# EVERYTHING ABOVE THIS LINE IS DUE BEFORE CLASS THURSDAY 12/7. ("Wednesday Night's Homework").
+### If you're flying and you just don't wanna stop, keep going
 
 # Everything below this line is due before class Friday 12/8 (i.e. "Thursday Night's Homework, part 1 of maybe 2").
 ---
@@ -220,7 +220,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 #######
 ```
 
-2. Write a loop that console logs a "right isosceles" triangle (SEE BELOW) made of '#' that has the height and length of `argument`.
+2. Write a loop that console logs a "right isosceles" triangle (SEE BELOW) made of '#' that has the height and length of `argument`.  This is deceptively tricky. 
 
 >Ex: argument is 7
 ```
@@ -247,7 +247,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 #
 ```
 
-4. Write a loop that console logs an "upside down right" isosceles triangle made of '#' that has the height and length of the argument.
+4. Write a loop that console logs an "upside down right" isosceles triangle made of '#' that has the height and length of the argument.  This is also tricky.
 
 >Ex: argument is 7
 ```
