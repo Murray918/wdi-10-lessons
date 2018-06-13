@@ -192,14 +192,9 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 <hr>
 
 ---
-# SUBMIT YOUR HOMEWORK.
 
-### Dude that was a lot of coding. Have a beer! Or a ginger tea. Or pet some puppies, or eat snacks, or watch Star Trek Deep Space Nine, or whatever you do to relax. then get some sleep.
 
-### If you're flying and you just don't wanna stop, keep going
-
-# Everything below this line is due before class Friday 12/8 (i.e. "Thursday Night's Homework, part 1 of maybe 2").
----
+# Hungry for more?
 
 ## Triangles
 
