@@ -25,11 +25,9 @@ Language: JavaScript <br>
 
 3) Keep your answers organized! Included a commented header for each section in your answers file.
 
-4) For the purposes of keeping a tidy console while you work, comment out each exercise once it is completed and working, so that you're just looking at output from the one you completed.  Maybe when you're done, it would be nice to uncomment everything so we can see all the output at once while grading. But remember: if, later, you uncomment everything and try to reuse a variable name that you had previously `let`ed, you'll get an error.
+4) If you're stuck on something for "too long" or get overly frustrated, make a comment and move on. Return to it later.
 
-5) If you're stuck on something for "too long" or get overly frustrated, make a comment and move on. Return to it later.
-
-6) After each section (even if you're not fully done with it), *add* and *commit* your work.
+5) After each section (even if you're not fully done with it), *add* and *commit* your work.
 
 Please use the commit messages that you see at the end of each section (you can modify if necessary). We will see these messages on Github. It will help us to see your progress. If you go back and fix a section, commit again with an updated message.
 
