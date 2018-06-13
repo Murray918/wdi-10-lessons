@@ -1,6 +1,6 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# chi-wdi-10-fluff-hounds
+# wdi-CC2-funky-ducks
 
 ---
 Title: Arrays, Loops, and Conditional Reps <br>
@@ -17,7 +17,7 @@ Language: JavaScript <br>
 
 ## Setup
 
-1) Get in your `fluff_hounds` folder.
+1) Get in today's directory in your `funky-ducks` folder.
 
 1.5) From inside of fluff-hounds, Fork this repo and clone it.  
 
