@@ -156,7 +156,7 @@ const getTweets = (res) => {
                       console.log(err)
                     })
                     .then((result) => {
-                       let tweets = result.data.statuses;
+                       const tweets = result.data.statuses;
                         console.log(tweets)
                         response(res, tweets)
                     })
@@ -190,7 +190,7 @@ module.exports = router;
 
 ### Connect with angular
 
-1.  Try to call the API endpoint with anguler
+1.  Try to call the API endpoint with angular/ jquery
 
 ```
 const app = angular.module('myApp', []);
