@@ -67,7 +67,7 @@ Lets design a schema using mongoose and then use it to create some documents and
 
 To start your schema:
 ```javascript
-var vampireSchema = new Schema({
+const vampireSchema = new Schema({
 //write your schema fields here
 
 });
