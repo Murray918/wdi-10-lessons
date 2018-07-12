@@ -42,6 +42,52 @@ This is where mongoose comes in. Instead of manually making sure everything we a
 
 Mongoose, in the background, can enforce these schemas (as strictly as you like) in order to make sense of the data going into the database and to allow validation. It provides powerful and simple to use tools to do this.
 
+## Bonus: Mongoose has some sweet helper functions that can make all this a little easier.
+
+Mongoose's default find gives you an array of objects.  But what if you know you only want one object?  These convenience methods just give you one object without the usual array surrounding it.
+
+```javascript
+Article.findById('5757191bce5579b805705900', (err, article)=>{
+	console.log(article);
+});
+```
+```javascript
+Article.findOne({ author : 'Matt' }, (err, article)=>{
+	console.log(article);
+});
+```
+```javascript
+Article.findByIdAndUpdate(
+	'5757191bce5579b805705900', // id of what to update
+	{ $set: { author: 'Matthew' } }, // how to update it
+	{ new : true }, // tells findOneAndUpdate to return modified article, not the original
+	(err, article)=>{
+		console.log(article);
+	});
+});
+```
+```javascript
+Article.findOneAndUpdate(
+	{ author: 'Matt' }, // search criteria of what to update
+	{ $set: { author: 'Matthew' } }, // how to update it
+	{ new : true }, // tells findOneAndUpdate to return modified article, not the original
+	(err, article)=>{
+		console.log(article);
+	});
+});
+```
+```javascript
+Article.findByIdAndRemove('5757191bce5579b805705900', (err, article)=>{
+	console.log(article); // log article that was removed
+});
+```
+```javascript
+
+Article.findOneAndRemove({ author : 'Matt' }, (err, article)=>{
+	console.log(article); // log article that was removed
+});
+```
+
 # The Exercise
 
 ## Building a Schema
