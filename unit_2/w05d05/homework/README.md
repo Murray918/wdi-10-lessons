@@ -157,6 +157,8 @@ Vampire.collection.insertMany(vampireData,(err, data) => {
   });
 ```
 
+# Day 1: 
+
 ### Add some new vampire data
 
 1. Using the create method, create 4 new vampires with any qualities that you like two should be male and two should be female.
@@ -207,6 +209,8 @@ Select all the vampires that:
 &#x1F534; The commit message should read: <br>
 "Commit 5 - selected more vampires"
 <hr>
+
+# Day 2
 
 ### Select objects that match one of several values
 Select all the vampires that:
