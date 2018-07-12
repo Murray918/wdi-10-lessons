@@ -1,16 +1,3 @@
-![ga](http://mobbook.generalassemb.ly/ga_cog.png)
-
-# WDIR-Gizmo
-
----
-Title: Mongoose Vampires<br>
-Type: Homework<br>
-Duration: 4 + hours <br>
-Creator: WDI-Meeseeks <br>
-Adapted by: Kristyn Bryan<br>
-Course: WDIR-Gizmo<br>
-
----
 # Mongoose Vampires
 
 For this weekend, you will be using some of the mongoose commands that you learned on Friday and you will be **reading the documents** to find **new** queries to complete the following activities. Researching queries and implementing them is a big part of this homework!
