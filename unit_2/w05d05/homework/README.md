@@ -1,6 +1,6 @@
 # Mongoose Vampires
 
-For this weekend, you will be using some of the mongoose commands that you learned on Friday and you will be **reading the documents** to find **new** queries to complete the following activities. Researching queries and implementing them is a big part of this homework!
+For this **2 day** assignment, you will be using some  mongoose commands and you will be **reading documentation**  to find **new** queries/techniques to complete the following activities. Researching queries and implementing them is a big part of this homework!
 
 ![mongoose](https://s-media-cache-ak0.pinimg.com/564x/ee/b7/a9/eeb7a99383582d53e65ffcc0e4a225bd.jpg)
 
@@ -41,52 +41,6 @@ Even when you are using mongo, an inherently schema-less database, a schema can 
 This is where mongoose comes in. Instead of manually making sure everything we are putting into our database makes sense and conforms to some type of structure, Mongoose allows us to define schemas.
 
 Mongoose, in the background, can enforce these schemas (as strictly as you like) in order to make sense of the data going into the database and to allow validation. It provides powerful and simple to use tools to do this.
-
-## Bonus: Mongoose has some sweet helper functions that can make all this a little easier.
-
-Mongoose's default find gives you an array of objects.  But what if you know you only want one object?  These convenience methods just give you one object without the usual array surrounding it.
-
-```javascript
-Article.findById('5757191bce5579b805705900', (err, article)=>{
-	console.log(article);
-});
-```
-```javascript
-Article.findOne({ author : 'Matt' }, (err, article)=>{
-	console.log(article);
-});
-```
-```javascript
-Article.findByIdAndUpdate(
-	'5757191bce5579b805705900', // id of what to update
-	{ $set: { author: 'Matthew' } }, // how to update it
-	{ new : true }, // tells findOneAndUpdate to return modified article, not the original
-	(err, article)=>{
-		console.log(article);
-	});
-});
-```
-```javascript
-Article.findOneAndUpdate(
-	{ author: 'Matt' }, // search criteria of what to update
-	{ $set: { author: 'Matthew' } }, // how to update it
-	{ new : true }, // tells findOneAndUpdate to return modified article, not the original
-	(err, article)=>{
-		console.log(article);
-	});
-});
-```
-```javascript
-Article.findByIdAndRemove('5757191bce5579b805705900', (err, article)=>{
-	console.log(article); // log article that was removed
-});
-```
-```javascript
-
-Article.findOneAndRemove({ author : 'Matt' }, (err, article)=>{
-	console.log(article); // log article that was removed
-});
-```
 
 # The Exercise
 
@@ -211,6 +165,53 @@ Select all the vampires that:
 <hr>
 
 # Day 2
+
+## Before you continue on to day two: check it out/remember: Mongoose has some sweet helper functions that can make all this a little easier.
+
+Mongoose's default find gives you an array of objects.  But what if you know you only want one object?  These convenience methods just give you one object without the usual array surrounding it.
+
+```javascript
+Article.findById('5757191bce5579b805705900', (err, article)=>{
+	console.log(article);
+});
+```
+```javascript
+Article.findOne({ author : 'Matt' }, (err, article)=>{
+	console.log(article);
+});
+```
+```javascript
+Article.findByIdAndUpdate(
+	'5757191bce5579b805705900', // id of what to update
+	{ $set: { author: 'Matthew' } }, // how to update it
+	{ new : true }, // tells findOneAndUpdate to return modified article, not the original
+	(err, article)=>{
+		console.log(article);
+	});
+});
+```
+```javascript
+Article.findOneAndUpdate(
+	{ author: 'Matt' }, // search criteria of what to update
+	{ $set: { author: 'Matthew' } }, // how to update it
+	{ new : true }, // tells findOneAndUpdate to return modified article, not the original
+	(err, article)=>{
+		console.log(article);
+	});
+});
+```
+```javascript
+Article.findByIdAndRemove('5757191bce5579b805705900', (err, article)=>{
+	console.log(article); // log article that was removed
+});
+```
+```javascript
+
+Article.findOneAndRemove({ author : 'Matt' }, (err, article)=>{
+	console.log(article); // log article that was removed
+});
+```
+
 
 ### Select objects that match one of several values
 Select all the vampires that:
