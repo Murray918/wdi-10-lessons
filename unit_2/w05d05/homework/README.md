@@ -166,7 +166,7 @@ Select all the vampires that:
 
 # Day 2
 
-## Before you continue on to day two: check it out/remember: Mongoose has some sweet helper functions that can make all this a little easier.
+### Before you continue on to day two: check it out/remember: Mongoose has some sweet helper functions that can make all this a little easier. See below
 
 Mongoose's default find gives you an array of objects.  But what if you know you only want one object?  These convenience methods just give you one object without the usual array surrounding it.
 
@@ -213,7 +213,7 @@ Article.findOneAndRemove({ author : 'Matt' }, (err, article)=>{
 ```
 
 
-### Select objects that match one of several values
+### 6\. Select objects that match one of several values
 Select all the vampires that:
 
 1. love either frilly shirtsleeves or frilly collars
@@ -226,7 +226,7 @@ Select all the vampires that:
 "Commit 6 - selected even more vampires"
 <hr>
 
-### Negative Selection
+### 7\. Negative Selection
 Select all vampires that:
 
 1. love ribbons but do not have brown eyes
@@ -239,7 +239,7 @@ Select all vampires that:
 "Commit 7 - used negative selections on vampire data"
 <hr>
 
-## Replace
+## 8\. Replace
 
 1. replace the vampire called 'Claudia' with a vampire called 'Eve'. 'Eve' will have a key called 'portrayed_by' with the value 'Tilda Swinton'
 2. replace the first male vampire with another whose name is 'Guy Man', and who has a key 'is_actually' with the value 'were-lizard'
@@ -249,7 +249,7 @@ Select all vampires that:
 "Commit 8 - replaced vampire data"
 <hr>
 
-## Update
+## 9\. Update
 
 1. Update 'Guy Man' to have a gender of 'f'
 2. Update 'Eve' to have a gender of 'm'
@@ -263,7 +263,7 @@ Select all vampires that:
 "Commit 9 - updated vampire data"
 <hr>
 
-## Remove
+## 10\. Remove
 
 1. Remove a single document wherein the hair_color is 'brown'
 2. We found out that the vampires with the blue eyes were just fakes! Let's remove all the vampires who have blue eyes from our database.
