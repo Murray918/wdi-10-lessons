@@ -220,19 +220,16 @@ Example:
 `mkdir salty-sardines` (the name of our class; if you like you could add a prefix like `wdi` or `ga` something like that)<br>
 `cd salty-sardines`
 
-* In that folder, make a new folder for each day, and go into it. Suggestion below:
+* In that folder, make a new folder for each day where the name includes the date and topics for the day, and go into it. Suggestion below:
 
 `mkdir 9_10_2018_terminal_loops`<br>
 `cd 9_10_2018_terminal_loops`
 
-* In that folder make a new folder for each lesson or activity and give that folder a nice descriptive name, for example:
+* In that folder make a new folder for each lesson or lab or homework and give that folder a nice descriptive name, for example:
 
 `mkdir terminal_practice`<br>
 `cd terminal_practice`
 
-* At the end of class, before you leave go back and rename the folder for that day something more descriptive, perhaps include key topics from the day:
-
-e.g.: `mv 12_17_2017 12_17_2017_jQuery_and_the_DOM`
 
 <br>
 
