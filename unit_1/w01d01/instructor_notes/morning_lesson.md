@@ -330,6 +330,7 @@ For each of these, write your command on one line, using full paths:
 
 <br>
 <hr>
+
 ## (Extra) Navigation: ABSOLUTE PATH
 
 Move anywhere relative to the home directory: 
