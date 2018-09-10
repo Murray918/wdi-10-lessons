@@ -1,4 +1,4 @@
-![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+![ga](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
 
 # WDI
 
@@ -6,7 +6,7 @@
 
 Command Line Workthrough<br>
 Duration: 1.5 hrs<br>
-Adapted by Reuben Ayres from: 
+Adapted by Reuben Ayres from:<br>
 "w01d01 Morning Lesson" created by: Thom Page<br>
 and "Terminal Basics + Navigating the Filesystem," created by Gary Mathe <br>
 
@@ -215,24 +215,24 @@ Example:
 ## Success tip: staying organized throughout the class
 
 * Be obsessive, starting today
-* Make one folder where everything from the class will live
+* Inside your home folder, create a folder where everything from the class will live, and always put everything from class in there:
 
-`mkdir ga_wdi_funky_ducks` (or `wdi` or `ga` or `` etc)<br>
-`cd ga_wdi_funky_ducks`
+`mkdir salty-sardines` (the name of our class; if you like you could add a prefix like `wdi` or `ga` something like that)<br>
+`cd salty-sardines`
 
-* In that folder, make a new folder for each day, and go into it.
+* In that folder, make a new folder for each day, and go into it. Suggestion below:
 
-`mkdir 6_11_2018`<br>
-`cd 6_11_2018`
+`mkdir 9_10_2018_terminal_loops`<br>
+`cd 9_10_2018_terminal_loops`
 
-* In that folder make a new folder for each lesson or activity and give that folder a nice descriptive name
+* In that folder make a new folder for each lesson or activity and give that folder a nice descriptive name, for example:
 
 `mkdir terminal_practice`<br>
 `cd terminal_practice`
 
 * At the end of class, before you leave go back and rename the folder for that day something more descriptive, perhaps include key topics from the day:
 
-`mv 12_17_2017 12_17_2017_jQuery_and_DOM_Manipulation`
+e.g.: `mv 12_17_2017 12_17_2017_jQuery_and_the_DOM`
 
 <br>
 
@@ -366,16 +366,16 @@ Are you tired yet of all the tedious typing and going left left left left left t
 #### Handy Terminal Keyboard Shortcuts
 
 In the long term, reduce your reliance on the mouse.
+
 More Bash keyboard shortcuts:
 
 `⌘ K` Clear the Terminal window
 
-`option arrow` Move cursor by word
+`option arrow` (right or left arrow) jump to the beginning of the next (or previous) word
 
 `Ctrl A` Go to beginning of line
 
 `Ctrl E` Go to end of line
-
 
 `Ctrl K` Kill line to end
 
@@ -384,7 +384,7 @@ More Bash keyboard shortcuts:
 `Ctrl Y` Yank clipboard to line
 
 
-`cd -` toggle previous directory
+`cd -` go to previous directory
 
 
 ...and now back to our
@@ -442,7 +442,7 @@ Open this folder structure in chrome and click on index.html.  Open the develope
 
 > => Hello World!
 
-**Congrats!** You've written your first "Hello World" of **ga_wdi_funky_ducks**!
+**Congrats!** You've written your first "Hello World" of **ga_wdi_salty_sardines**!
 
 <br>
 <hr>
